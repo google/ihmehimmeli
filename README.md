@@ -1,6 +1,8 @@
 # Ihmehimmeli
 
-This repository contains code for project Ihmehimmeli.
+This repository contains code for project Ihmehimmeli. The model is described in the paper:
+
+I.M. Comsa, K. Potempa, L. Versari, T. Fischbacher, A. Gesmundo, J. Alakuijala (2019). “[Temporal coding in spiking neural networks with alpha synaptic function](https://arxiv.org/abs/1907.13223)”, arXiv:1907.13223, July 2019.
 
 The objective of Ihmehimmeli is to build recurrent architectures for
 state-based spiking neural networks that encode information in the timing of
@@ -11,8 +13,6 @@ artficial and biological neural networks. Similar to the way that biological
 brains have evolved to use temporal coding for the rapid processing of sensory
 information, we expect that equivalent develpments in spiking networks will be
 a key future step in the advancement of general artificial intelligence.
-
-Our model is described in detail in this paper.[Temporal coding in spiking neural networks with alpha synaptic function](https://arxiv.org/abs/1907.13223).
 
 ## Build instructions
 
