@@ -12,8 +12,7 @@ brains have evolved to use temporal coding for the rapid processing of sensory
 information, we expect that equivalent develpments in spiking networks will be
 a key future step in the advancement of general artificial intelligence.
 
-Our model is described in detail in this paper.
-***TODO***: Add paper link when it's released.
+Our model is described in detail in this paper.[Temporal coding in spiking neural networks with alpha synaptic function](https://arxiv.org/abs/1907.13223).
 
 ## Build instructions
 
