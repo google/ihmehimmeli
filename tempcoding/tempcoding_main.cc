@@ -497,6 +497,8 @@ void Main(int argc, char** argv) {
         best_model =
             new Tempcoder(tempcoder.layer_sizes(), tempcoder.pulses(),
                           tempcoder.fire_threshold(), tempcoder.weights());
+        best_model->decay_params().set_decay_rate(
+            tempcoder.decay_params().rate());
       }
 
       // If no validation set, save model that trained best.
@@ -506,6 +508,8 @@ void Main(int argc, char** argv) {
           best_model =
               new Tempcoder(tempcoder.layer_sizes(), tempcoder.pulses(),
                             tempcoder.fire_threshold(), tempcoder.weights());
+          best_model->decay_params().set_decay_rate(
+              tempcoder.decay_params().rate());
         }
       }
 
