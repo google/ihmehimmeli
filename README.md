@@ -25,7 +25,7 @@ It was tested with CMake 3.12.1 and g++ 7.3.0, though it will likely work with
 other versions and compilers.
 
 ``` shell
-git clone https://github.com/google/ihmehimmeli
+git clone --branch event_based https://github.com/google/ihmehimmeli
 cd ihmehimmeli
 git clone https://github.com/abseil/abseil-cpp.git
 mkdir build && cd build
