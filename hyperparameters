@@ -1,0 +1,151 @@
+Good selections of hyperparameters for different configurations of noise level (noise_factor = {0.0, 0.2, 0.4, 0.6, 0.8}), target latency (latency_ae = {1, 2, 4, 8, 16}) and embedding size (n_hidden = {8, 16, 32}).
+
+-noise_factor_ae=0.0 -latency_ae=1 -batch_size=18 -clip_derivative=607.575441 -decay_rate=0.112942 -fire_threshold=1.402923 -learning_rate=0.002455 -learning_rate_pulses=0.008874 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=-8.899169 -penalty_no_spike=65.237213 -pulse_weight_mean_multiplier=6.399479
+
+-noise_factor_ae=0.0 -latency_ae=2 -batch_size=55 -clip_derivative=753.767248 -decay_rate=0.181080 -fire_threshold=0.638117 -learning_rate=0.000486 -learning_rate_pulses=0.007454 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=6.976678 -penalty_no_spike=82.392206 -pulse_weight_mean_multiplier=8.855539
+
+-noise_factor_ae=0.0 -latency_ae=4 -batch_size=3 -clip_derivative=74.344405 -decay_rate=1.111030 -fire_threshold=0.832244 -learning_rate=0.029232 -learning_rate_pulses=0.000276 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=4.906415 -penalty_no_spike=70.864863 -pulse_weight_mean_multiplier=8.095701
+
+-noise_factor_ae=0.0 -latency_ae=8 -batch_size=30 -clip_derivative=477.308168 -decay_rate=0.446785 -fire_threshold=0.838877 -learning_rate=0.000860 -learning_rate_pulses=0.046119 -n_hidden=8 -n_pulses=9 -nonpulse_weight_mean_multiplier=2.368873 -penalty_no_spike=18.365077 -pulse_weight_mean_multiplier=9.921062
+
+-noise_factor_ae=0.0 -latency_ae=16 -batch_size=90 -clip_derivative=843.023990 -decay_rate=0.297498 -fire_threshold=0.629948 -learning_rate=0.000867 -learning_rate_pulses=0.149805 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=1.210550 -penalty_no_spike=31.161226 -pulse_weight_mean_multiplier=9.402389
+
+-noise_factor_ae=0.0 -latency_ae=1 -batch_size=20 -clip_derivative=615.162433 -decay_rate=0.375055 -fire_threshold=1.355322 -learning_rate=0.001382 -learning_rate_pulses=0.000466 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=-8.850573 -penalty_no_spike=42.663131 -pulse_weight_mean_multiplier=-9.812703
+
+-noise_factor_ae=0.0 -latency_ae=2 -batch_size=15 -clip_derivative=893.517661 -decay_rate=1.993752 -fire_threshold=0.227450 -learning_rate=0.043483 -learning_rate_pulses=0.000670 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=6.514854 -penalty_no_spike=99.198657 -pulse_weight_mean_multiplier=-5.246343
+
+-noise_factor_ae=0.0 -latency_ae=4 -batch_size=4 -clip_derivative=520.821934 -decay_rate=1.320574 -fire_threshold=0.172299 -learning_rate=0.019858 -learning_rate_pulses=0.000372 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=-7.253207 -penalty_no_spike=64.826189 -pulse_weight_mean_multiplier=3.314729
+
+-noise_factor_ae=0.0 -latency_ae=8 -batch_size=22 -clip_derivative=997.268669 -decay_rate=0.634647 -fire_threshold=0.505478 -learning_rate=0.002095 -learning_rate_pulses=0.051726 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=8.922726 -penalty_no_spike=22.663022 -pulse_weight_mean_multiplier=9.103987
+
+-noise_factor_ae=0.0 -latency_ae=16 -batch_size=116 -clip_derivative=649.539534 -decay_rate=0.303470 -fire_threshold=0.827711 -learning_rate=0.001923 -learning_rate_pulses=0.180559 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=8.871457 -penalty_no_spike=10.847225 -pulse_weight_mean_multiplier=5.309003
+
+-noise_factor_ae=0.0 -latency_ae=1 -batch_size=7 -clip_derivative=386.058227 -decay_rate=0.172556 -fire_threshold=0.834236 -learning_rate=0.001676 -learning_rate_pulses=0.001441 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=-7.038462 -penalty_no_spike=6.250341 -pulse_weight_mean_multiplier=4.213218
+
+-noise_factor_ae=0.0 -latency_ae=2 -batch_size=2 -clip_derivative=627.832019 -decay_rate=1.813210 -fire_threshold=0.642203 -learning_rate=0.012456 -learning_rate_pulses=0.000210 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=5.032507 -penalty_no_spike=57.426304 -pulse_weight_mean_multiplier=-7.983869
+
+-noise_factor_ae=0.0 -latency_ae=4 -batch_size=1 -clip_derivative=142.355115 -decay_rate=1.043635 -fire_threshold=0.829390 -learning_rate=0.012249 -learning_rate_pulses=0.000179 -n_hidden=32 -n_pulses=9 -nonpulse_weight_mean_multiplier=-6.714749 -penalty_no_spike=13.789531 -pulse_weight_mean_multiplier=1.330226
+
+-noise_factor_ae=0.0 -latency_ae=8 -batch_size=5 -clip_derivative=256.956874 -decay_rate=0.529139 -fire_threshold=1.319746 -learning_rate=0.001698 -learning_rate_pulses=0.000881 -n_hidden=32 -n_pulses=9 -nonpulse_weight_mean_multiplier=-5.203863 -penalty_no_spike=65.775096 -pulse_weight_mean_multiplier=6.005060
+
+-noise_factor_ae=0.0 -latency_ae=16 -batch_size=27 -clip_derivative=949.729863 -decay_rate=0.224236 -fire_threshold=0.883124 -learning_rate=0.000097 -learning_rate_pulses=0.012619 -n_hidden=32 -n_pulses=7 -nonpulse_weight_mean_multiplier=6.039572 -penalty_no_spike=24.128664 -pulse_weight_mean_multiplier=9.212799
+
+-noise_factor_ae=0.2 -latency_ae=1 -batch_size=13 -clip_derivative=175.988363 -decay_rate=0.205275 -fire_threshold=1.150215 -learning_rate=0.001785 -learning_rate_pulses=0.001034 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=-5.602215 -penalty_no_spike=82.131371 -pulse_weight_mean_multiplier=6.667527
+
+-noise_factor_ae=0.2 -latency_ae=2 -batch_size=16 -clip_derivative=699.193051 -decay_rate=0.127186 -fire_threshold=1.118457 -learning_rate=0.000331 -learning_rate_pulses=0.002740 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=8.299348 -penalty_no_spike=31.153566 -pulse_weight_mean_multiplier=6.883361
+
+-noise_factor_ae=0.2 -latency_ae=4 -batch_size=37 -clip_derivative=821.486821 -decay_rate=1.078856 -fire_threshold=1.230088 -learning_rate=0.030551 -learning_rate_pulses=0.013039 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=-3.139604 -penalty_no_spike=30.020294 -pulse_weight_mean_multiplier=-3.361104
+
+-noise_factor_ae=0.2 -latency_ae=8 -batch_size=32 -clip_derivative=653.545983 -decay_rate=0.514552 -fire_threshold=0.390019 -learning_rate=0.002889 -learning_rate_pulses=0.029894 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=-6.727098 -penalty_no_spike=44.262001 -pulse_weight_mean_multiplier=9.640192
+
+-noise_factor_ae=0.2 -latency_ae=16 -batch_size=40 -clip_derivative=572.895247 -decay_rate=0.238108 -fire_threshold=0.496227 -learning_rate=0.000212 -learning_rate_pulses=0.022072 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=1.609539 -penalty_no_spike=21.972225 -pulse_weight_mean_multiplier=9.834422
+
+-noise_factor_ae=0.2 -latency_ae=1 -batch_size=5 -clip_derivative=883.388658 -decay_rate=0.165248 -fire_threshold=0.531806 -learning_rate=0.000399 -learning_rate_pulses=0.000303 -n_hidden=16 -n_pulses=9 -nonpulse_weight_mean_multiplier=-4.447722 -penalty_no_spike=96.420436 -pulse_weight_mean_multiplier=5.001929
+
+-noise_factor_ae=0.2 -latency_ae=2 -batch_size=23 -clip_derivative=782.939185 -decay_rate=0.101734 -fire_threshold=1.116041 -learning_rate=0.004898 -learning_rate_pulses=0.003905 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=3.066760 -penalty_no_spike=82.177261 -pulse_weight_mean_multiplier=7.752493
+
+-noise_factor_ae=0.2 -latency_ae=4 -batch_size=43 -clip_derivative=961.307320 -decay_rate=1.111409 -fire_threshold=0.413885 -learning_rate=0.012222 -learning_rate_pulses=0.010006 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=-8.520935 -penalty_no_spike=70.008856 -pulse_weight_mean_multiplier=1.995805
+
+-noise_factor_ae=0.2 -latency_ae=8 -batch_size=5 -clip_derivative=210.176826 -decay_rate=0.794570 -fire_threshold=0.673840 -learning_rate=0.020842 -learning_rate_pulses=0.000306 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=4.897626 -penalty_no_spike=79.188143 -pulse_weight_mean_multiplier=8.451139
+
+-noise_factor_ae=0.2 -latency_ae=16 -batch_size=75 -clip_derivative=911.445921 -decay_rate=0.223171 -fire_threshold=0.929321 -learning_rate=0.000235 -learning_rate_pulses=0.024248 -n_hidden=16 -n_pulses=9 -nonpulse_weight_mean_multiplier=3.110267 -penalty_no_spike=2.457474 -pulse_weight_mean_multiplier=9.433008
+
+-noise_factor_ae=0.2 -latency_ae=1 -batch_size=2 -clip_derivative=864.639465 -decay_rate=0.129873 -fire_threshold=0.469632 -learning_rate=0.001254 -learning_rate_pulses=0.000705 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=3.488133 -penalty_no_spike=31.089511 -pulse_weight_mean_multiplier=5.662248
+
+-noise_factor_ae=0.2 -latency_ae=2 -batch_size=12 -clip_derivative=979.517005 -decay_rate=0.115313 -fire_threshold=1.240505 -learning_rate=0.002364 -learning_rate_pulses=0.002245 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=-4.816031 -penalty_no_spike=4.405314 -pulse_weight_mean_multiplier=6.276323
+
+-noise_factor_ae=0.2 -latency_ae=4 -batch_size=17 -clip_derivative=947.405661 -decay_rate=1.089444 -fire_threshold=0.180933 -learning_rate=0.003072 -learning_rate_pulses=0.008772 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=-5.027038 -penalty_no_spike=96.611753 -pulse_weight_mean_multiplier=6.260660
+
+-noise_factor_ae=0.2 -latency_ae=8 -batch_size=128 -clip_derivative=220.584064 -decay_rate=0.415299 -fire_threshold=0.562277 -learning_rate=0.000359 -learning_rate_pulses=0.196803 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=0.504188 -penalty_no_spike=80.847548 -pulse_weight_mean_multiplier=4.427681
+
+-noise_factor_ae=0.2 -latency_ae=16 -batch_size=88 -clip_derivative=936.895403 -decay_rate=0.241746 -fire_threshold=1.186036 -learning_rate=0.000327 -learning_rate_pulses=0.042486 -n_hidden=32 -n_pulses=8 -nonpulse_weight_mean_multiplier=4.359034 -penalty_no_spike=57.133009 -pulse_weight_mean_multiplier=9.585795
+
+-noise_factor_ae=0.4 -latency_ae=1 -batch_size=33 -clip_derivative=927.262304 -decay_rate=0.160654 -fire_threshold=0.187232 -learning_rate=0.000358 -learning_rate_pulses=0.003951 -n_hidden=8 -n_pulses=8 -nonpulse_weight_mean_multiplier=0.313826 -penalty_no_spike=18.107460 -pulse_weight_mean_multiplier=7.368362
+
+-noise_factor_ae=0.4 -latency_ae=2 -batch_size=14 -clip_derivative=561.719722 -decay_rate=0.109235 -fire_threshold=1.377431 -learning_rate=0.001644 -learning_rate_pulses=0.001137 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=-7.674877 -penalty_no_spike=64.853149 -pulse_weight_mean_multiplier=4.699471
+
+-noise_factor_ae=0.4 -latency_ae=4 -batch_size=81 -clip_derivative=200.258567 -decay_rate=0.135840 -fire_threshold=1.189828 -learning_rate=0.002009 -learning_rate_pulses=0.110885 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=-1.539917 -penalty_no_spike=77.906329 -pulse_weight_mean_multiplier=9.751825
+
+-noise_factor_ae=0.4 -latency_ae=8 -batch_size=72 -clip_derivative=336.771533 -decay_rate=0.402714 -fire_threshold=0.546447 -learning_rate=0.000236 -learning_rate_pulses=0.029515 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=1.096223 -penalty_no_spike=27.324523 -pulse_weight_mean_multiplier=5.854205
+
+-noise_factor_ae=0.4 -latency_ae=16 -batch_size=17 -clip_derivative=848.815868 -decay_rate=0.199605 -fire_threshold=1.345463 -learning_rate=0.000261 -learning_rate_pulses=0.017506 -n_hidden=8 -n_pulses=5 -nonpulse_weight_mean_multiplier=-2.986371 -penalty_no_spike=53.852770 -pulse_weight_mean_multiplier=9.553024
+
+-noise_factor_ae=0.4 -latency_ae=1 -batch_size=8 -clip_derivative=708.795544 -decay_rate=0.220353 -fire_threshold=0.496657 -learning_rate=0.000857 -learning_rate_pulses=0.003793 -n_hidden=16 -n_pulses=9 -nonpulse_weight_mean_multiplier=-6.362545 -penalty_no_spike=29.159221 -pulse_weight_mean_multiplier=4.573413
+
+-noise_factor_ae=0.4 -latency_ae=2 -batch_size=8 -clip_derivative=391.479393 -decay_rate=0.122207 -fire_threshold=0.786733 -learning_rate=0.000294 -learning_rate_pulses=0.008061 -n_hidden=16 -n_pulses=9 -nonpulse_weight_mean_multiplier=-8.805085 -penalty_no_spike=80.203215 -pulse_weight_mean_multiplier=9.453968
+
+-noise_factor_ae=0.4 -latency_ae=4 -batch_size=25 -clip_derivative=773.195801 -decay_rate=0.110450 -fire_threshold=0.645123 -learning_rate=0.000306 -learning_rate_pulses=0.015259 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=4.378930 -penalty_no_spike=0.965225 -pulse_weight_mean_multiplier=2.249010
+
+-noise_factor_ae=0.4 -latency_ae=8 -batch_size=23 -clip_derivative=871.856984 -decay_rate=0.402953 -fire_threshold=0.683077 -learning_rate=0.000124 -learning_rate_pulses=0.006431 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=2.364220 -penalty_no_spike=69.416485 -pulse_weight_mean_multiplier=9.388049
+
+-noise_factor_ae=0.4 -latency_ae=16 -batch_size=39 -clip_derivative=861.668176 -decay_rate=0.227613 -fire_threshold=0.598779 -learning_rate=0.000081 -learning_rate_pulses=0.008204 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=2.401581 -penalty_no_spike=27.710549 -pulse_weight_mean_multiplier=8.802659
+
+-noise_factor_ae=0.4 -latency_ae=1 -batch_size=25 -clip_derivative=846.677079 -decay_rate=0.148342 -fire_threshold=0.579935 -learning_rate=0.001380 -learning_rate_pulses=0.003297 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=-7.644661 -penalty_no_spike=51.544821 -pulse_weight_mean_multiplier=9.447131
+
+-noise_factor_ae=0.4 -latency_ae=2 -batch_size=13 -clip_derivative=602.451374 -decay_rate=0.104613 -fire_threshold=1.207026 -learning_rate=0.005909 -learning_rate_pulses=0.001140 -n_hidden=32 -n_pulses=9 -nonpulse_weight_mean_multiplier=-4.753526 -penalty_no_spike=75.145711 -pulse_weight_mean_multiplier=-3.161572
+
+-noise_factor_ae=0.4 -latency_ae=4 -batch_size=100 -clip_derivative=558.860137 -decay_rate=0.105295 -fire_threshold=1.262986 -learning_rate=0.000154 -learning_rate_pulses=0.017060 -n_hidden=32 -n_pulses=9 -nonpulse_weight_mean_multiplier=3.558320 -penalty_no_spike=77.069239 -pulse_weight_mean_multiplier=7.147229
+
+-noise_factor_ae=0.4 -latency_ae=8 -batch_size=10 -clip_derivative=994.937903 -decay_rate=0.428598 -fire_threshold=1.322030 -learning_rate=0.000099 -learning_rate_pulses=0.017661 -n_hidden=32 -n_pulses=9 -nonpulse_weight_mean_multiplier=2.150444 -penalty_no_spike=14.959538 -pulse_weight_mean_multiplier=7.873223
+
+-noise_factor_ae=0.4 -latency_ae=16 -batch_size=36 -clip_derivative=690.265212 -decay_rate=0.299468 -fire_threshold=1.215248 -learning_rate=0.000486 -learning_rate_pulses=0.063716 -n_hidden=32 -n_pulses=8 -nonpulse_weight_mean_multiplier=-8.379478 -penalty_no_spike=39.560790 -pulse_weight_mean_multiplier=9.942053
+
+-noise_factor_ae=0.6 -latency_ae=1 -batch_size=30 -clip_derivative=274.457662 -decay_rate=0.198104 -fire_threshold=1.314275 -learning_rate=0.003337 -learning_rate_pulses=0.000453 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=-5.597598 -penalty_no_spike=9.421515 -pulse_weight_mean_multiplier=3.352263
+
+-noise_factor_ae=0.6 -latency_ae=2 -batch_size=75 -clip_derivative=31.364273 -decay_rate=0.134561 -fire_threshold=1.211472 -learning_rate=0.002943 -learning_rate_pulses=0.023831 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=-8.856539 -penalty_no_spike=95.034945 -pulse_weight_mean_multiplier=2.867965
+
+-noise_factor_ae=0.6 -latency_ae=4 -batch_size=5 -clip_derivative=642.452148 -decay_rate=0.853837 -fire_threshold=0.871627 -learning_rate=0.005382 -learning_rate_pulses=0.000129 -n_hidden=8 -n_pulses=8 -nonpulse_weight_mean_multiplier=-2.569989 -penalty_no_spike=75.938196 -pulse_weight_mean_multiplier=2.746626
+
+-noise_factor_ae=0.6 -latency_ae=8 -batch_size=10 -clip_derivative=429.319179 -decay_rate=0.518298 -fire_threshold=0.463108 -learning_rate=0.000124 -learning_rate_pulses=0.003758 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=2.645658 -penalty_no_spike=92.195063 -pulse_weight_mean_multiplier=9.726453
+
+-noise_factor_ae=0.6 -latency_ae=16 -batch_size=3 -clip_derivative=98.958829 -decay_rate=0.291601 -fire_threshold=1.440408 -learning_rate=0.000188 -learning_rate_pulses=0.001708 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=-7.239125 -penalty_no_spike=43.295818 -pulse_weight_mean_multiplier=-3.934035
+
+-noise_factor_ae=0.6 -latency_ae=1 -batch_size=3 -clip_derivative=109.106897 -decay_rate=0.526728 -fire_threshold=1.297767 -learning_rate=0.006395 -learning_rate_pulses=0.000617 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=4.312960 -penalty_no_spike=12.678879 -pulse_weight_mean_multiplier=5.635646
+
+-noise_factor_ae=0.6 -latency_ae=2 -batch_size=21 -clip_derivative=543.776837 -decay_rate=0.104004 -fire_threshold=0.162998 -learning_rate=0.000208 -learning_rate_pulses=0.004295 -n_hidden=16 -n_pulses=9 -nonpulse_weight_mean_multiplier=-9.233059 -penalty_no_spike=17.208993 -pulse_weight_mean_multiplier=-6.267438
+
+-noise_factor_ae=0.6 -latency_ae=4 -batch_size=43 -clip_derivative=315.612765 -decay_rate=0.107790 -fire_threshold=1.413672 -learning_rate=0.000850 -learning_rate_pulses=0.005770 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=-4.633844 -penalty_no_spike=3.038363 -pulse_weight_mean_multiplier=-5.114384
+
+-noise_factor_ae=0.6 -latency_ae=8 -batch_size=10 -clip_derivative=420.159762 -decay_rate=0.482250 -fire_threshold=1.288788 -learning_rate=0.000390 -learning_rate_pulses=0.025304 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=-3.376650 -penalty_no_spike=30.721021 -pulse_weight_mean_multiplier=5.352507
+
+-noise_factor_ae=0.6 -latency_ae=16 -batch_size=23 -clip_derivative=166.975075 -decay_rate=0.248594 -fire_threshold=0.649654 -learning_rate=0.000107 -learning_rate_pulses=0.015360 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=1.255905 -penalty_no_spike=80.469801 -pulse_weight_mean_multiplier=9.993667
+
+-noise_factor_ae=0.6 -latency_ae=1 -batch_size=17 -clip_derivative=6.955819 -decay_rate=0.350474 -fire_threshold=0.808877 -learning_rate=0.003382 -learning_rate_pulses=0.001189 -n_hidden=32 -n_pulses=9 -nonpulse_weight_mean_multiplier=7.074599 -penalty_no_spike=42.638795 -pulse_weight_mean_multiplier=2.287364
+
+-noise_factor_ae=0.6 -latency_ae=2 -batch_size=10 -clip_derivative=175.008209 -decay_rate=0.122117 -fire_threshold=0.462000 -learning_rate=0.000248 -learning_rate_pulses=0.007401 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=-4.951653 -penalty_no_spike=9.165278 -pulse_weight_mean_multiplier=5.781095
+
+-noise_factor_ae=0.6 -latency_ae=4 -batch_size=7 -clip_derivative=490.716461 -decay_rate=1.011276 -fire_threshold=0.783561 -learning_rate=0.004468 -learning_rate_pulses=0.000298 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=-5.724494 -penalty_no_spike=91.214473 -pulse_weight_mean_multiplier=1.393463
+
+-noise_factor_ae=0.6 -latency_ae=8 -batch_size=34 -clip_derivative=923.707374 -decay_rate=0.488863 -fire_threshold=0.726461 -learning_rate=0.000332 -learning_rate_pulses=0.024583 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=4.780529 -penalty_no_spike=24.308451 -pulse_weight_mean_multiplier=4.791432
+
+-noise_factor_ae=0.6 -latency_ae=16 -batch_size=30 -clip_derivative=850.591737 -decay_rate=0.325660 -fire_threshold=0.761675 -learning_rate=0.000196 -learning_rate_pulses=0.024293 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=3.074609 -penalty_no_spike=40.048747 -pulse_weight_mean_multiplier=5.283638
+
+-noise_factor_ae=0.8 -latency_ae=1 -batch_size=1 -clip_derivative=761.730194 -decay_rate=0.376611 -fire_threshold=1.171787 -learning_rate=0.008336 -learning_rate_pulses=0.000121 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=-5.776785 -penalty_no_spike=27.515145 -pulse_weight_mean_multiplier=-8.580362
+
+-noise_factor_ae=0.8 -latency_ae=2 -batch_size=88 -clip_derivative=330.544555 -decay_rate=0.118230 -fire_threshold=0.987270 -learning_rate=0.000886 -learning_rate_pulses=0.024521 -n_hidden=8 -n_pulses=9 -nonpulse_weight_mean_multiplier=-3.622594 -penalty_no_spike=34.218134 -pulse_weight_mean_multiplier=5.683204
+
+-noise_factor_ae=0.8 -latency_ae=4 -batch_size=146 -clip_derivative=294.620187 -decay_rate=0.100142 -fire_threshold=1.447748 -learning_rate=0.000695 -learning_rate_pulses=0.017724 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=3.950872 -penalty_no_spike=86.334287 -pulse_weight_mean_multiplier=8.634812
+
+-noise_factor_ae=0.8 -latency_ae=8 -batch_size=51 -clip_derivative=909.490156 -decay_rate=0.517752 -fire_threshold=1.445892 -learning_rate=0.001128 -learning_rate_pulses=0.028210 -n_hidden=8 -n_pulses=10 -nonpulse_weight_mean_multiplier=-8.126833 -penalty_no_spike=84.609674 -pulse_weight_mean_multiplier=-7.953962
+
+-noise_factor_ae=0.8 -latency_ae=16 -batch_size=17 -clip_derivative=745.141386 -decay_rate=0.276941 -fire_threshold=1.048833 -learning_rate=0.000182 -learning_rate_pulses=0.019145 -n_hidden=8 -n_pulses=9 -nonpulse_weight_mean_multiplier=-2.882677 -penalty_no_spike=37.012759 -pulse_weight_mean_multiplier=7.365080
+
+-noise_factor_ae=0.8 -latency_ae=1 -batch_size=8 -clip_derivative=769.380564 -decay_rate=0.468409 -fire_threshold=0.721430 -learning_rate=0.004171 -learning_rate_pulses=0.000348 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=-8.315963 -penalty_no_spike=22.337036 -pulse_weight_mean_multiplier=-6.931232
+
+-noise_factor_ae=0.8 -latency_ae=2 -batch_size=140 -clip_derivative=515.341031 -decay_rate=0.137107 -fire_threshold=0.776995 -learning_rate=0.000981 -learning_rate_pulses=0.025134 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=1.831229 -penalty_no_spike=23.157093 -pulse_weight_mean_multiplier=4.617919
+
+-noise_factor_ae=0.8 -latency_ae=4 -batch_size=4 -clip_derivative=559.623664 -decay_rate=1.050660 -fire_threshold=0.746457 -learning_rate=0.009921 -learning_rate_pulses=0.000242 -n_hidden=16 -n_pulses=9 -nonpulse_weight_mean_multiplier=2.589201 -penalty_no_spike=74.537012 -pulse_weight_mean_multiplier=8.262775
+
+-noise_factor_ae=0.8 -latency_ae=8 -batch_size=141 -clip_derivative=109.532057 -decay_rate=0.498882 -fire_threshold=0.661765 -learning_rate=0.001216 -learning_rate_pulses=0.133488 -n_hidden=16 -n_pulses=9 -nonpulse_weight_mean_multiplier=1.054989 -penalty_no_spike=47.249508 -pulse_weight_mean_multiplier=7.660687
+
+-noise_factor_ae=0.8 -latency_ae=16 -batch_size=65 -clip_derivative=413.273359 -decay_rate=0.270882 -fire_threshold=0.912941 -learning_rate=0.000651 -learning_rate_pulses=0.157809 -n_hidden=16 -n_pulses=10 -nonpulse_weight_mean_multiplier=0.947582 -penalty_no_spike=19.252590 -pulse_weight_mean_multiplier=9.100574
+
+-noise_factor_ae=0.8 -latency_ae=1 -batch_size=107 -clip_derivative=187.067302 -decay_rate=0.430028 -fire_threshold=0.616601 -learning_rate=0.001334 -learning_rate_pulses=0.001316 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=-2.157856 -penalty_no_spike=4.546410 -pulse_weight_mean_multiplier=-1.460437
+
+-noise_factor_ae=0.8 -latency_ae=2 -batch_size=77 -clip_derivative=791.067983 -decay_rate=0.105676 -fire_threshold=0.536654 -learning_rate=0.000262 -learning_rate_pulses=0.013871 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=3.915598 -penalty_no_spike=9.052429 -pulse_weight_mean_multiplier=7.211731
+
+-noise_factor_ae=0.8 -latency_ae=4 -batch_size=5 -clip_derivative=235.203230 -decay_rate=0.929046 -fire_threshold=1.314369 -learning_rate=0.010916 -learning_rate_pulses=0.000159 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=-9.023104 -penalty_no_spike=72.617060 -pulse_weight_mean_multiplier=-1.557647
+
+-noise_factor_ae=0.8 -latency_ae=8 -batch_size=20 -clip_derivative=103.890307 -decay_rate=0.581409 -fire_threshold=0.299191 -learning_rate=0.000162 -learning_rate_pulses=0.011253 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=2.726764 -penalty_no_spike=9.928926 -pulse_weight_mean_multiplier=8.333711
+
+-noise_factor_ae=0.8 -latency_ae=16 -batch_size=48 -clip_derivative=773.577355 -decay_rate=0.297059 -fire_threshold=1.082668 -learning_rate=0.000396 -learning_rate_pulses=0.070771 -n_hidden=32 -n_pulses=10 -nonpulse_weight_mean_multiplier=1.297639 -penalty_no_spike=16.461900 -pulse_weight_mean_multiplier=6.840520 
